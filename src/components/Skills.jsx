@@ -29,16 +29,16 @@ const cards = [
               AOS.init();
             }, [])
   return (
-    <div id="services" className="w-full mb-10 mt-10 xl:px-0">
+    <div id="services" className="w-full mb-10 mt-10 ms:mt-14 xl:px-0">
       <div data-aos="fade-down" data-aos-easing="linear"
      data-aos-duration="800" className="px-20 xl:px-12 nb:px-5">
         <h2
-          className="font-bold dancing-script text-[30px] text-[#781727] text-center"
+          className="font-bold pacifico-regular text-[30px] text-[#781727] text-center"
           
         >
-          Bilim Va Ko`nikmalarim`
+          Мои знания и навыки
         </h2>
-        <div className="flex justify-center sm:flex-col sm:items-center gap-4 mt-10">
+        <div className="flex justify-center sm:flex-col sm:items-center gap-4 mt-10 ms:mt-5">
           <Box
             sx={{
               width: '100%',

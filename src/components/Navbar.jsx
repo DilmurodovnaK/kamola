@@ -35,7 +35,7 @@ const Navbar = () => {
               className="nav-links"
               onClick={() => scrollToSection('home')}
             >
-             Asosiy
+           Дом
             </a>
           </li>
           <li className="nav-item">
@@ -44,7 +44,7 @@ const Navbar = () => {
               className="nav-links"
               onClick={() => scrollToSection('about')}
             >
-              Men Haqimda
+            Обо мне
             </a>
           </li>
           <li className="nav-item">
@@ -53,7 +53,16 @@ const Navbar = () => {
               className="nav-links"
               onClick={() => scrollToSection('services')}
             >
-              Xizmat ko`rsatish
+             Услуга
+            </a>
+          </li>
+           <li className="nav-item">
+            <a
+              href="#proyektlar"
+              className="nav-links"
+              onClick={() => scrollToSection('projects')}
+            >
+            Проекты
             </a>
           </li>
          
@@ -63,7 +72,7 @@ const Navbar = () => {
               className="nav-links"
               onClick={() => scrollToSection('contacts')}
             >
-              Bo`lanish
+              Контакты
             </a>
           </li>
         </ul>

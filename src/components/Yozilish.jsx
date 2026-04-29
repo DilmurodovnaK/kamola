@@ -93,11 +93,11 @@ const Yozilish = () => {
       <div data-aos="fade-down" data-aos-easing="linear"
      data-aos-duration="800" className="p-14 mx-20 xl:mx-10 xl:px-5 nb:mx-5 lg:mx-8 bg-[#ac5b67] md:py-14 rounded-[14px]">
         <div className="flex justify-between items-start gap-10 nb:flex-col nb:items-center nb:gap-3">
-          <h2 className="dancing-script max-w-[536px] font-bold text-[48px] leading-[48px] ms:text-[34px] ms:leading-[34px] ms:text-start text-white nb:text-center">
-            Men Bilan Bog`lanish`
+          <h2 className="pacifico-regular max-w-[536px] font-bold text-[48px] leading-[48px] ms:text-[34px] ms:leading-[34px] ms:text-start text-white nb:text-center">
+            Если вам нужно создать сайт для себя или бизнеса свяжитесь со мной
           </h2>
-          <p className="dancing-script max-w-[355px] font-normal text-xl text-white nb:text-center md:text-lg ms:text-start">
-           So'rovingizni Qoldiring Va tez orada siz bilan bog'lanaman
+          <p className="script max-w-[355px] font-normal text-xl text-white nb:text-center md:text-lg ms:text-start">
+           Оставьте свой запрос, и я свяжусь с вами в ближайшее время
           </p>
         </div>
     <form onSubmit={handleSubmit} className="flex flex-wrap justify-between lg:justify-center gap-5 mt-16 nb:mt-10">
@@ -111,7 +111,7 @@ const Yozilish = () => {
                id="name"
               value={formData.name}
               onChange={handleClick}
-              placeholder= "FIO"
+              placeholder= "ФИО"
               required
             />
             </div>
@@ -140,7 +140,7 @@ const Yozilish = () => {
                id="tel"
                 name="tel"
               className="w-full bg-[#F5F5F5] placeholder:text-black text-black text-sm border border-slate-200 rounded-md px-6 py-5 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
-              placeholder="Telefon Raqamingiz"
+              placeholder="Ваш номер телефона"
               value={formData.tel}
               onChange={handlePhoneChange}
               required
@@ -153,7 +153,7 @@ const Yozilish = () => {
                id="xabar"
                 name="xabar"
               className="w-full bg-[#F5F5F5] placeholder:text-black text-black text-sm border border-slate-200 rounded-md px-6 py-5 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
-              placeholder="Xabar Qoldiring"
+              placeholder="Оставьте сообщение"
               value={formData.xabar}
               onChange={handleClick}
               required
@@ -165,7 +165,7 @@ const Yozilish = () => {
             {/* Checkbox for privacy policy consent */}
             <div className='flex items-center'>
               <Checkbox checked={isChecked} onChange={handleCheckboxChange} />
-              <span className='text-white'>Roziman</span>
+              <span className='text-white'>Я соглас(-ен/-на)</span>
             </div>
 
          
@@ -175,7 +175,7 @@ const Yozilish = () => {
   type="submit"
   className="w-full bg-white text-black text-sm border rounded-md px-6 py-5 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
 >
- So`rovingizni Qoldiring
+Оставьте свой запрос
 </button>
  </div>
         </form>

@@ -19,11 +19,11 @@ const Header = () => {
       <div data-aos="fade-down" data-aos-easing="linear"
      data-aos-duration="800" className="flex px-20 items-center max-h-[670px] justify-between xl:gap-x-7 xl:px-12 md:gap-3 lg:px-8 md:flex-col nb:px-5 md:items-center">
         <div className="flex  flex-col w-[50%] items-start gap-7 xl:gap-4  md:w-[100%]">
-          <h1 className=" font-bold dancing-script text-[60px] xl:text-[48px]  leading-[60px] text-white max-w-[550px] md:text-[40px] md:leading-[40px]">
-            Yo`lchiyeva Kamola Dilmurodovna
+          <h1 className=" font-bold pacifico-regular text-[50px] xl:text-[48px]  leading-[60px] text-white max-w-[550px] md:text-[40px] md:leading-[40px]">
+  Юлчиева Камола Дилмуродовна
           </h1>
           <p className="font-normal playfair-display text-[20px] text-white  lg:text-[15px]  leading-[30px] max-w-[580px] md:font-light md:text-[19px] md:leading-[24px]">
-            Men Frontend React dasturchisi sifatida mijozlarga yuqori sifatli veb-saytlar va foydalanuvchi interfeyslari yaratish bo'yicha xizmatlar ko'rsataman. Mening maqsadim — mijozlarimga mukammal va samarali xizmatlar taqdim etishdir!
+          Как разработчик Frontend React, я предоставляю клиентам услуги по созданию высококачественных веб-сайтов и пользовательских интерфейсов. Моя цель — предоставлять своим клиентам превосходные и эффективные услуги!
           </p>
         </div>
 

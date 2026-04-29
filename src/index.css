@@ -164,16 +164,17 @@
 
 body {
     color: #781727;
-    background: #e0b0bc;
-    background: -webkit-linear-gradient(to right, #781727, #D6B0CA);
-    background: linear-gradient(to right, #781727, #D6B0CA);
+    background-color: #e0b0bc;
+    background: -webkit-linear-gradient(to right, #7e2231, #e0b0bc);
+    background: linear-gradient(to right, #7e2c39, #e0b0bc);
     font-family: 'Playfair Display', serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
 }
 
-.star0 {
+
+/* .star0 {
     height: 1px;
     width: 1px;
     opacity: 1;
@@ -202,7 +203,7 @@ body {
     border-radius: 50%;
     opacity: 1;
     position: absolute;
-}
+} */
 
 .dancing-script {
     font-family: "Dancing Script", serif;
@@ -223,5 +224,11 @@ body {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
     font-style: normal;
 }
